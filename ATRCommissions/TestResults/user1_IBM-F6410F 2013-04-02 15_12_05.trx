@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bbf1d1aa-1aab-4316-874e-32aa9faa2382" name="user1@IBM-F6410F 2013-04-02 15:12:05" runUser="IBM-F6410F\user1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b195a5b5-b32f-4cf1-a8eb-b9abeca63056">
+    <Description>Il s'agit des paramètres de test par défaut pour une série de tests locale.</Description>
+    <Deployment enabled="false" runDeploymentRoot="user1_IBM-F6410F 2013-04-02 15_12_05">
+      <DeploymentItem filename="C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\bin\Debug\ATRCommissions.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-04-02T15:12:05.2812500-04:00" queuing="2013-04-02T15:12:07.3125000-04:00" start="2013-04-02T15:12:07.6718750-04:00" finish="2013-04-02T15:13:05.0937500-04:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="8" executed="2" passed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="6" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="IBM-F6410F" outcome="Error" timestamp="2013-04-02T15:13:05.0312500-04:00">
+        <Text>Le processus hôte du test s'est fermé de manière inattendue.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetCurrentDateTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="f16503aa-d81e-55dd-3576-dc3de13389f8">
+      <Execution id="e4dfbf0e-d7ad-4846-862e-5a909297c7d8" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCurrentDateTest" />
+    </UnitTest>
+    <UnitTest name="SelectNatifTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="1f0f4f37-0131-cd4a-b439-cde6ee1cca77">
+      <DeploymentItems>
+        <DeploymentItem filename="ATRCommissions.exe" />
+      </DeploymentItems>
+      <Execution id="f256a520-8cd9-40a3-b94f-cf3da09fa2d7" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelectNatifTest" />
+    </UnitTest>
+    <UnitTest name="GetConnectionTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="1662f486-70de-8681-1634-73167f85b770">
+      <DeploymentItems>
+        <DeploymentItem filename="ATRCommissions.exe" />
+      </DeploymentItems>
+      <Execution id="7fa395fe-37c8-4ee3-8441-56c38257cfb1" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetConnectionTest" />
+    </UnitTest>
+    <UnitTest name="SetNewDateTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="ffac9ef0-a17e-6f5d-48c2-181fdbc2e93a">
+      <DeploymentItems>
+        <DeploymentItem filename="ATRCommissions.exe" />
+      </DeploymentItems>
+      <Execution id="70bb47a4-8b6f-4a86-b0a0-6e4947158a5c" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SetNewDateTest" />
+    </UnitTest>
+    <UnitTest name="LoginTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="34728c7d-0743-621d-299e-b9ee219d2705">
+      <Execution id="c9d8fa77-98b7-4ae8-b97b-c7dea766b01b" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginTest" />
+    </UnitTest>
+    <UnitTest name="GetSequenceTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="47ce7729-8866-fdd4-c180-3b7f150afab1">
+      <Execution id="90389bf7-2d19-472c-b00a-0cfc3b134305" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSequenceTest" />
+    </UnitTest>
+    <UnitTest name="SetNextMonthTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="cfe66615-67d6-a497-4e40-5bdfae618f5c">
+      <Execution id="61926b03-352f-447e-8320-9025af03066b" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SetNextMonthTest" />
+    </UnitTest>
+    <UnitTest name="SetNextDayTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="20ca7984-00bb-0c4d-769c-adfcf831a920">
+      <Execution id="2fd9dd1e-b07f-4592-a189-785d541c6358" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SetNextDayTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Les résultats ne figurent pas dans une liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Tous les résultats chargés" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1662f486-70de-8681-1634-73167f85b770" executionId="7fa395fe-37c8-4ee3-8441-56c38257cfb1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f0f4f37-0131-cd4a-b439-cde6ee1cca77" executionId="f256a520-8cd9-40a3-b94f-cf3da09fa2d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20ca7984-00bb-0c4d-769c-adfcf831a920" executionId="2fd9dd1e-b07f-4592-a189-785d541c6358" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34728c7d-0743-621d-299e-b9ee219d2705" executionId="c9d8fa77-98b7-4ae8-b97b-c7dea766b01b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47ce7729-8866-fdd4-c180-3b7f150afab1" executionId="90389bf7-2d19-472c-b00a-0cfc3b134305" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cfe66615-67d6-a497-4e40-5bdfae618f5c" executionId="61926b03-352f-447e-8320-9025af03066b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f16503aa-d81e-55dd-3576-dc3de13389f8" executionId="e4dfbf0e-d7ad-4846-862e-5a909297c7d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ffac9ef0-a17e-6f5d-48c2-181fdbc2e93a" executionId="70bb47a4-8b6f-4a86-b0a0-6e4947158a5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7fa395fe-37c8-4ee3-8441-56c38257cfb1" testId="1662f486-70de-8681-1634-73167f85b770" testName="GetConnectionTest" computerName="IBM-F6410F" duration="00:00:00.1414540" startTime="2013-04-02T15:12:08.0781250-04:00" endTime="2013-04-02T15:12:09.8906250-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7fa395fe-37c8-4ee3-8441-56c38257cfb1">
+    </UnitTestResult>
+    <UnitTestResult executionId="f256a520-8cd9-40a3-b94f-cf3da09fa2d7" testId="1f0f4f37-0131-cd4a-b439-cde6ee1cca77" testName="SelectNatifTest" computerName="IBM-F6410F" duration="00:00:55.0781250" startTime="2013-04-02T15:12:09.9531250-04:00" endTime="2013-04-02T15:13:05.0312500-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f256a520-8cd9-40a3-b94f-cf3da09fa2d7">
+    </UnitTestResult>
+    <UnitTestResult executionId="2fd9dd1e-b07f-4592-a189-785d541c6358" testId="20ca7984-00bb-0c4d-769c-adfcf831a920" testName="SetNextDayTest" computerName="IBM-F6410F" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2fd9dd1e-b07f-4592-a189-785d541c6358">
+    </UnitTestResult>
+    <UnitTestResult executionId="c9d8fa77-98b7-4ae8-b97b-c7dea766b01b" testId="34728c7d-0743-621d-299e-b9ee219d2705" testName="LoginTest" computerName="IBM-F6410F" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9d8fa77-98b7-4ae8-b97b-c7dea766b01b">
+    </UnitTestResult>
+    <UnitTestResult executionId="90389bf7-2d19-472c-b00a-0cfc3b134305" testId="47ce7729-8866-fdd4-c180-3b7f150afab1" testName="GetSequenceTest" computerName="IBM-F6410F" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90389bf7-2d19-472c-b00a-0cfc3b134305">
+    </UnitTestResult>
+    <UnitTestResult executionId="61926b03-352f-447e-8320-9025af03066b" testId="cfe66615-67d6-a497-4e40-5bdfae618f5c" testName="SetNextMonthTest" computerName="IBM-F6410F" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61926b03-352f-447e-8320-9025af03066b">
+    </UnitTestResult>
+    <UnitTestResult executionId="e4dfbf0e-d7ad-4846-862e-5a909297c7d8" testId="f16503aa-d81e-55dd-3576-dc3de13389f8" testName="GetCurrentDateTest" computerName="IBM-F6410F" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4dfbf0e-d7ad-4846-862e-5a909297c7d8">
+    </UnitTestResult>
+    <UnitTestResult executionId="70bb47a4-8b6f-4a86-b0a0-6e4947158a5c" testId="ffac9ef0-a17e-6f5d-48c2-181fdbc2e93a" testName="SetNewDateTest" computerName="IBM-F6410F" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70bb47a4-8b6f-4a86-b0a0-6e4947158a5c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

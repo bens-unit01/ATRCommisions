@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="AGENTS">
+      <EntityTypeMapping TypeName="Model.AGENTS">
+        <MappingFragment StoreEntitySet="AGENTS">
+          <ScalarProperty Name="AGENT_ID" ColumnName="AGENT_ID" />
+          <ScalarProperty Name="PROFILE" ColumnName="PROFILE" />
+          <ScalarProperty Name="MOT_PASSE" ColumnName="MOT_PASSE" />
+          <ScalarProperty Name="NOM" ColumnName="NOM" />
+          <ScalarProperty Name="PRENOM" ColumnName="PRENOM" />
+          <ScalarProperty Name="ADRESSE" ColumnName="ADRESSE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIENTS">
+      <EntityTypeMapping TypeName="Model.CLIENTS">
+        <MappingFragment StoreEntitySet="CLIENTS">
+          <ScalarProperty Name="CLIENT_ID" ColumnName="CLIENT_ID" />
+          <ScalarProperty Name="NOM" ColumnName="NOM" />
+          <ScalarProperty Name="PRENOM" ColumnName="PRENOM" />
+          <ScalarProperty Name="ADRESSE" ColumnName="ADRESSE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PAIEMENTS">
+      <EntityTypeMapping TypeName="Model.PAIEMENTS">
+        <MappingFragment StoreEntitySet="PAIEMENTS">
+          <ScalarProperty Name="PAIEMENT_ID" ColumnName="PAIEMENT_ID" />
+          <ScalarProperty Name="TYPE_PAIEMENT" ColumnName="TYPE_PAIEMENT" />
+          <ScalarProperty Name="NUM_CHEQUE" ColumnName="NUM_CHEQUE" />
+          <ScalarProperty Name="DATE_PAIEMENT" ColumnName="DATE_PAIEMENT" />
+          <ScalarProperty Name="MONTANT_PAIEMENT" ColumnName="MONTANT_PAIEMENT" />
+          <ScalarProperty Name="POLICE_ID" ColumnName="POLICE_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POLICES">
+      <EntityTypeMapping TypeName="Model.POLICES">
+        <MappingFragment StoreEntitySet="POLICES">
+          <ScalarProperty Name="POLICE_ID" ColumnName="POLICE_ID" />
+          <ScalarProperty Name="ETAT" ColumnName="ETAT" />
+          <ScalarProperty Name="DATE_DEBUT" ColumnName="DATE_DEBUT" />
+          <ScalarProperty Name="DATE_FIN" ColumnName="DATE_FIN" />
+          <ScalarProperty Name="DATE_ACHAT" ColumnName="DATE_ACHAT" />
+          <ScalarProperty Name="DATE_ANNULATION" ColumnName="DATE_ANNULATION" />
+          <ScalarProperty Name="MONTANT_COM" ColumnName="MONTANT_COM" />
+          <ScalarProperty Name="FEQUENCE_PAIEMENT_CLIENT" ColumnName="FEQUENCE_PAIEMENT_CLIENT" />
+          <ScalarProperty Name="MONTANT_PAIEMENT_CLIENT" ColumnName="MONTANT_PAIEMENT_CLIENT" />
+          <ScalarProperty Name="TYPE_ID" ColumnName="TYPE_ID" />
+          <ScalarProperty Name="CLIENT_ID" ColumnName="CLIENT_ID" />
+          <ScalarProperty Name="AGENT_ID" ColumnName="AGENT_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TYPE_POLICES">
+      <EntityTypeMapping TypeName="Model.TYPE_POLICES">
+        <MappingFragment StoreEntitySet="TYPE_POLICES">
+          <ScalarProperty Name="TYPE_ID" ColumnName="TYPE_ID" />
+          <ScalarProperty Name="NOM_POLICE" ColumnName="NOM_POLICE" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="POURCENTAGE_COM" ColumnName="POURCENTAGE_COM" />
+          <ScalarProperty Name="PRIX" ColumnName="PRIX" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

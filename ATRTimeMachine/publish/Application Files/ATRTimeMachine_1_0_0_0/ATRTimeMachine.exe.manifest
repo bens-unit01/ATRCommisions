@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="ATRTimeMachine.exe" version="1.0.0.0" publicKeyToken="8213c7057a37c2b6" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ATRTimeMachine" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="ATRTimeMachine.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options du manifeste de contrôle de compte d'utilisateur
+          Si vous souhaitez modifier le niveau du contrôle de compte d'utilisateur Windows, remplacez le 
+          nœud requestedExecutionLevel par l'une des propositions suivantes :
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si vous souhaitez utiliser la virtualisation de fichiers et du Registre pour la 
+         compatibilité descendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ATRTimeMachine.exe" size="22528">
+      <assemblyIdentity name="ATRTimeMachine" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ZDj9T6YAeX9VdbtQQP1t224WL2U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=IBM-F6410F\user1" issuerKeyHash="45a0edc26d5887791a7dd91dd5eb7704d52ce0c2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>h/whXwS1CUQG4NTzEGbD0HFbhj0=</DigestValue></Reference></SignedInfo><SignatureValue>fHXQm8vnfaX9Li+1GQxQ+upHeARdt4Hm8mEt1X9Nh3TQtx5Kb5nYk406tHiXjSuN+UZzwxOxGqk4KK87P3ygLjNYpjuMjp51AiZ3RJNLysdNnhwWRnG40lvOO7KbspoZAO8qtMkol7y7AQ9ssTGcc/Fo0Xh9Q/QU769TgTqWT3g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sBwqMBDMundWM1sEcbjKSrS8trtNkS4uf2f0MLJSBfslRUfpz4dxKSP3g3QK15o2oiM+TyObdgKqV9JBM7yObtxhLUcAjmOpnFaubJidpvqlEPbsGT26qZW6IKGe5wcIpClFydor5tnEQNa+g+S4MMQM7IbRT5eVCrcLSNIDQx8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3d865b71d0c36610f3d4e0064409b5045f21fc87" Description="" Url=""><as:assemblyIdentity name="ATRTimeMachine.exe" version="1.0.0.0" publicKeyToken="8213c7057a37c2b6" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=IBM-F6410F\user1</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>SWn7bXLeqdHJpo8bAFQEFhWYf24=</DigestValue></Reference></SignedInfo><SignatureValue>rfjiRpO5rZiPvlqpjR8okkb/9gUoD060nGzts5lKviWCV0Zkek/42kPW/Sr3loKYf6eV9FUvraOGjImAALanlJ1nsukZjSsiDKjOC+2G6vCZsF7GL7bPs6qF4z2VEX+NDMLD6cvUtsMe+P//XiKcXjpSHTWIj5FIH0q9706iEp8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sBwqMBDMundWM1sEcbjKSrS8trtNkS4uf2f0MLJSBfslRUfpz4dxKSP3g3QK15o2oiM+TyObdgKqV9JBM7yObtxhLUcAjmOpnFaubJidpvqlEPbsGT26qZW6IKGe5wcIpClFydor5tnEQNa+g+S4MMQM7IbRT5eVCrcLSNIDQx8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCAT6gAwIBAgIQAITwcjt4lL9AU/Nkcj5LJjAJBgUrDgMCHQUAMCsxKTAnBgNVBAMeIABJAEIATQAtAEYANgA0ADEAMABGAFwAdQBzAGUAcgAxMB4XDTEzMDQwMzAzMzUyMloXDTE0MDQwMzA5MzUyMlowKzEpMCcGA1UEAx4gAEkAQgBNAC0ARgA2ADQAMQAwAEYAXAB1AHMAZQByADEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALAcKjAQzLp3VjNbBHG4ykq0vLa7TZEuLn9n9DCyUgX7JUVH6c+HcSkj94N0CteaNqIjPk8jm3YCqlfSQTO8jm7cYS1HAI5jqZxWrmyYnab6pRD27Bk9uqmVuiChnucHCKQpRcnaK+bZxEDWvoPkuDDEDOyG0U+XlQq3C0jSA0MfAgMBAAEwCQYFKw4DAh0FAAOBgQAmzLLXa5VwwWEn5XgGQ2EoAaypk0eWhhdcBCZAcKmJ3YNMAuLH7o7rF/trh82teWp/DGP4tiyZrXG37aZzPn+ltybRARmLm9wdu6q7GY1EMaYKEq5/bZpO/DfT2o6BAw7kYlyGHOVKlHMhaCDsqCwCAQFdDFY42AEeA/pKzNrA+A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="237bdf7b-73bb-412c-9e52-a7b0d8a5ad98" name="user1@IBM-F6410F 2013-03-20 22:39:26" runUser="IBM-F6410F\user1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b195a5b5-b32f-4cf1-a8eb-b9abeca63056">
+    <Description>Il s'agit des paramètres de test par défaut pour une série de tests locale.</Description>
+    <Deployment enabled="false" runDeploymentRoot="user1_IBM-F6410F 2013-03-20 22_39_26">
+      <DeploymentItem filename="C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\bin\Debug\ATRCommissions.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-20T22:39:26.1406250-04:00" queuing="2013-03-20T22:39:26.3281250-04:00" start="2013-03-20T22:39:26.3906250-04:00" finish="2013-03-20T22:39:28.9843750-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SetNextDayTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="20ca7984-00bb-0c4d-769c-adfcf831a920">
+      <Execution id="b031cbf4-4ef8-4cba-a8aa-391f2cc984ca" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SetNextDayTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Les résultats ne figurent pas dans une liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Tous les résultats chargés" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="20ca7984-00bb-0c4d-769c-adfcf831a920" executionId="b031cbf4-4ef8-4cba-a8aa-391f2cc984ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b031cbf4-4ef8-4cba-a8aa-391f2cc984ca" testId="20ca7984-00bb-0c4d-769c-adfcf831a920" testName="SetNextDayTest" computerName="IBM-F6410F" duration="00:00:00.4940271" startTime="2013-03-20T22:39:26.4531250-04:00" endTime="2013-03-20T22:39:28.8593750-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b031cbf4-4ef8-4cba-a8aa-391f2cc984ca">
+      <Output>
+        <DebugTrace>DAO - SetNextDay()- currentDate:2013-06-04
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

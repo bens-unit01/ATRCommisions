@@ -1,0 +1,13 @@
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\bin\Release\ATRCommissions.exe.config
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\bin\Release\ATRCommissions.exe
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\bin\Release\ATRCommissions.pdb
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\obj\Release\ATRCommissions.AdminView.resources
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\obj\Release\ATRCommissions.AgentView.resources
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\obj\Release\ATRCommissions.Properties.Resources.resources
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\obj\Release\ATRCommissions.exe
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\obj\Release\ATRCommissions.pdb
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\obj\Release\ATRCommissions.LoginScreen.resources
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\obj\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\obj\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\obj\Release\ATRCommissions.EmptyView.resources

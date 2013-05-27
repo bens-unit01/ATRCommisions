@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ATRCommissions">
+</Property><Property Name="Fichier solution" Value="C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\ATRCommissions.sln">
+</Property><Property Name="Date" Value="12 mars 2013">
+</Property><Property Name="Time" Value="23:40">
+</Property></Properties><Event ErrorLevel="0" Project="ATRCommissions" Source="ATRCommissions.csproj" Description="Projet correctement converti">
+</Event><Event ErrorLevel="3" Project="ATRCommissions" Source="ATRCommissions.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ATRCommissions.sln" Description="Solution correctement convertie">
+</Event><Event ErrorLevel="3" Project="" Source="ATRCommissions.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ATRCommissions" Source="ATRCommissions.csproj" Description="Analyse terminée : la mise à niveau n'est pas requise pour les fichiers projet.">
+</Event></UpgradeLog>

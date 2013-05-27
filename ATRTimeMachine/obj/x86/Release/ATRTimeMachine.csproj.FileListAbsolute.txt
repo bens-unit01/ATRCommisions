@@ -1,0 +1,13 @@
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRTimeMachine\bin\Release\ATRTimeMachine.exe.manifest
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRTimeMachine\bin\Release\ATRTimeMachine.application
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRTimeMachine\bin\Release\ATRTimeMachine.exe
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRTimeMachine\bin\Release\ATRTimeMachine.pdb
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRTimeMachine\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRTimeMachine\obj\x86\Release\ATRTimeMachine.TimeMachineGUI.resources
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRTimeMachine\obj\x86\Release\ATRTimeMachine.Properties.Resources.resources
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRTimeMachine\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRTimeMachine\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRTimeMachine\obj\x86\Release\ATRTimeMachine.exe.manifest
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRTimeMachine\obj\x86\Release\ATRTimeMachine.application
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRTimeMachine\obj\x86\Release\ATRTimeMachine.exe
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRTimeMachine\obj\x86\Release\ATRTimeMachine.pdb

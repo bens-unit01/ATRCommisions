@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d830d8a3-da5b-4e43-b8b7-416022641c6e" name="user1@IBM-F6410F 2013-04-02 14:40:29" runUser="IBM-F6410F\user1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b195a5b5-b32f-4cf1-a8eb-b9abeca63056">
+    <Description>Il s'agit des paramètres de test par défaut pour une série de tests locale.</Description>
+    <Deployment enabled="false" runDeploymentRoot="user1_IBM-F6410F 2013-04-02 14_40_29">
+      <DeploymentItem filename="C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\bin\Debug\ATRCommissions.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-04-02T14:40:29.0000000-04:00" queuing="2013-04-02T14:40:36.4375000-04:00" start="2013-04-02T14:40:36.6875000-04:00" finish="2013-04-02T14:40:46.0937500-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="6" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetCurrentDateTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="f16503aa-d81e-55dd-3576-dc3de13389f8">
+      <Execution id="0b3a03a1-674e-4c5e-9fb1-cc1b4fe10c1c" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCurrentDateTest" />
+    </UnitTest>
+    <UnitTest name="SelectNatifTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="1f0f4f37-0131-cd4a-b439-cde6ee1cca77">
+      <DeploymentItems>
+        <DeploymentItem filename="ATRCommissions.exe" />
+      </DeploymentItems>
+      <Execution id="df12db77-5036-48ca-a774-03b36d4ef8cd" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelectNatifTest" />
+    </UnitTest>
+    <UnitTest name="GetConnectionTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="1662f486-70de-8681-1634-73167f85b770">
+      <DeploymentItems>
+        <DeploymentItem filename="ATRCommissions.exe" />
+      </DeploymentItems>
+      <Execution id="46972f03-4d14-4259-a533-bbb242fd3ec5" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetConnectionTest" />
+    </UnitTest>
+    <UnitTest name="SetNewDateTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="ffac9ef0-a17e-6f5d-48c2-181fdbc2e93a">
+      <DeploymentItems>
+        <DeploymentItem filename="ATRCommissions.exe" />
+      </DeploymentItems>
+      <Execution id="69fd2555-7db7-41e6-af16-11259a3aba8d" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SetNewDateTest" />
+    </UnitTest>
+    <UnitTest name="LoginTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="34728c7d-0743-621d-299e-b9ee219d2705">
+      <Execution id="e9cac996-55d1-400b-9c3e-89be678bcc12" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginTest" />
+    </UnitTest>
+    <UnitTest name="GetSequenceTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="47ce7729-8866-fdd4-c180-3b7f150afab1">
+      <Execution id="22cb2b68-dbef-4b84-a3cd-8f23dbcad93a" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSequenceTest" />
+    </UnitTest>
+    <UnitTest name="SetNextMonthTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="cfe66615-67d6-a497-4e40-5bdfae618f5c">
+      <Execution id="e11c0d77-1fd1-43c3-9869-f16fe9bbb6f3" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SetNextMonthTest" />
+    </UnitTest>
+    <UnitTest name="SetNextDayTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="20ca7984-00bb-0c4d-769c-adfcf831a920">
+      <Execution id="b9671341-b784-4ef3-b72a-38c476c76939" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SetNextDayTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Les résultats ne figurent pas dans une liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Tous les résultats chargés" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1662f486-70de-8681-1634-73167f85b770" executionId="46972f03-4d14-4259-a533-bbb242fd3ec5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f0f4f37-0131-cd4a-b439-cde6ee1cca77" executionId="df12db77-5036-48ca-a774-03b36d4ef8cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20ca7984-00bb-0c4d-769c-adfcf831a920" executionId="b9671341-b784-4ef3-b72a-38c476c76939" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34728c7d-0743-621d-299e-b9ee219d2705" executionId="e9cac996-55d1-400b-9c3e-89be678bcc12" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47ce7729-8866-fdd4-c180-3b7f150afab1" executionId="22cb2b68-dbef-4b84-a3cd-8f23dbcad93a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cfe66615-67d6-a497-4e40-5bdfae618f5c" executionId="e11c0d77-1fd1-43c3-9869-f16fe9bbb6f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f16503aa-d81e-55dd-3576-dc3de13389f8" executionId="0b3a03a1-674e-4c5e-9fb1-cc1b4fe10c1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ffac9ef0-a17e-6f5d-48c2-181fdbc2e93a" executionId="69fd2555-7db7-41e6-af16-11259a3aba8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="46972f03-4d14-4259-a533-bbb242fd3ec5" testId="1662f486-70de-8681-1634-73167f85b770" testName="GetConnectionTest" computerName="IBM-F6410F" duration="00:00:00.2991941" startTime="2013-04-02T14:40:36.7500000-04:00" endTime="2013-04-02T14:40:38.3125000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46972f03-4d14-4259-a533-bbb242fd3ec5">
+    </UnitTestResult>
+    <UnitTestResult executionId="df12db77-5036-48ca-a774-03b36d4ef8cd" testId="1f0f4f37-0131-cd4a-b439-cde6ee1cca77" testName="SelectNatifTest" computerName="IBM-F6410F" duration="00:00:00.3787619" startTime="2013-04-02T14:40:38.3281250-04:00" endTime="2013-04-02T14:40:38.7656250-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df12db77-5036-48ca-a774-03b36d4ef8cd">
+      <Output>
+        <ErrorInfo>
+          <Message>La méthode de test TestATRCommissions.DAOTest.SelectNatifTest a levé une exception : 
+System.InvalidOperationException: Opération non valide. La connexion est fermée.</Message>
+          <StackTrace>   à ATRCommissions.DAO_Accessor.SelectNatif(String query, OracleConnection connection)
+   à TestATRCommissions.DAOTest.SelectNatifTest() dans C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\TestATRCommissions\DAOTest.cs:ligne 136
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b9671341-b784-4ef3-b72a-38c476c76939" testId="20ca7984-00bb-0c4d-769c-adfcf831a920" testName="SetNextDayTest" computerName="IBM-F6410F" duration="00:00:06.8021836" startTime="2013-04-02T14:40:38.7656250-04:00" endTime="2013-04-02T14:40:45.5781250-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9671341-b784-4ef3-b72a-38c476c76939">
+      <Output>
+        <DebugTrace>DAO - SetNewDate()- currentDate:2014-02-02
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e9cac996-55d1-400b-9c3e-89be678bcc12" testId="34728c7d-0743-621d-299e-b9ee219d2705" testName="LoginTest" computerName="IBM-F6410F" duration="00:00:00.0367493" startTime="2013-04-02T14:40:45.5937500-04:00" endTime="2013-04-02T14:40:45.6406250-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9cac996-55d1-400b-9c3e-89be678bcc12">
+      <Output>
+        <DebugTrace>DAO Login - Connexion vers Oracle ...
+DAO - Login  returnValue: Success
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="22cb2b68-dbef-4b84-a3cd-8f23dbcad93a" testId="47ce7729-8866-fdd4-c180-3b7f150afab1" testName="GetSequenceTest" computerName="IBM-F6410F" duration="00:00:00.0993418" startTime="2013-04-02T14:40:45.6562500-04:00" endTime="2013-04-02T14:40:45.7656250-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22cb2b68-dbef-4b84-a3cd-8f23dbcad93a">
+      <Output>
+        <DebugTrace>DAO GetSequence- Connexion vers Oracle ...
+DAO GetSequence - bloc catch :ORA-00911: invalid character
+
+DAO - GetSequence  returnValue: 0
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Échec de Assert.AreEqual. Attendu : &lt;Success&gt;, Réel : &lt;ConnectionError&gt;. </Message>
+          <StackTrace>   à TestATRCommissions.DAOTest.GetSequenceTest() dans C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\TestATRCommissions\DAOTest.cs:ligne 154
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e11c0d77-1fd1-43c3-9869-f16fe9bbb6f3" testId="cfe66615-67d6-a497-4e40-5bdfae618f5c" testName="SetNextMonthTest" computerName="IBM-F6410F" duration="00:00:00.0596842" startTime="2013-04-02T14:40:45.7812500-04:00" endTime="2013-04-02T14:40:45.8437500-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e11c0d77-1fd1-43c3-9869-f16fe9bbb6f3">
+      <Output>
+        <DebugTrace>DAO - SetNewDate()- currentDate:2014-03-01
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0b3a03a1-674e-4c5e-9fb1-cc1b4fe10c1c" testId="f16503aa-d81e-55dd-3576-dc3de13389f8" testName="GetCurrentDateTest" computerName="IBM-F6410F" duration="00:00:00.0310151" startTime="2013-04-02T14:40:45.8593750-04:00" endTime="2013-04-02T14:40:45.9062500-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b3a03a1-674e-4c5e-9fb1-cc1b4fe10c1c">
+    </UnitTestResult>
+    <UnitTestResult executionId="69fd2555-7db7-41e6-af16-11259a3aba8d" testId="ffac9ef0-a17e-6f5d-48c2-181fdbc2e93a" testName="SetNewDateTest" computerName="IBM-F6410F" duration="00:00:00.0192475" startTime="2013-04-02T14:40:45.9218750-04:00" endTime="2013-04-02T14:40:45.9531250-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69fd2555-7db7-41e6-af16-11259a3aba8d">
+      <Output>
+        <DebugTrace>DAO - SetNewDate()- currentDate:0001-01-01
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

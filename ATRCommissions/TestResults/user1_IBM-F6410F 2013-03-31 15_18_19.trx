@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dc24f222-d921-4965-b343-b09b550b4b5a" name="user1@IBM-F6410F 2013-03-31 15:18:19" runUser="IBM-F6410F\user1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b195a5b5-b32f-4cf1-a8eb-b9abeca63056">
+    <Description>Il s'agit des paramètres de test par défaut pour une série de tests locale.</Description>
+    <Deployment userDeploymentRoot="C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="user1_IBM-F6410F 2013-03-31 15_18_19">
+      <DeploymentItem filename="C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2010\ATRCommissions\bin\Debug\ATRCommissions.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-31T15:18:19.0287874-04:00" queuing="2013-03-31T15:18:19.0444124-04:00" start="2013-03-31T15:18:19.0756624-04:00" finish="2013-03-31T15:18:20.3100374-04:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="IBM-F6410F" outcome="Warning" timestamp="2013-03-31T15:18:19.0444124-04:00">
+        <Text>Le déploiement est actuellement désactivé. L'élément de déploiement 'ATRCommissions.exe' sur le test 'TestATRCommissions.DAOTest.SetNewDateTest' n'a pas été déployé.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SetNewDateTest" storage="c:\documents and settings\user1\mes documents\google drive\formation\c#__.net -- 819\projet de session\atrcommissions 2010\atrcommissions\testatrcommissions\bin\release\testatrcommissions.dll" id="ffac9ef0-a17e-6f5d-48c2-181fdbc2e93a">
+      <DeploymentItems>
+        <DeploymentItem filename="ATRCommissions.exe" />
+      </DeploymentItems>
+      <Execution id="5ffe5a8c-2ed5-4746-976d-eb53bb7bd18e" />
+      <TestMethod codeBase="C:/Documents and Settings/user1/Mes documents/Google Drive/Formation/C#__.net -- 819/Projet de session/ATRCommissions 2010/ATRCommissions/TestATRCommissions/bin/Release/TestATRCommissions.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestATRCommissions.DAOTest, TestATRCommissions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SetNewDateTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Les résultats ne figurent pas dans une liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Tous les résultats chargés" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ffac9ef0-a17e-6f5d-48c2-181fdbc2e93a" executionId="5ffe5a8c-2ed5-4746-976d-eb53bb7bd18e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5ffe5a8c-2ed5-4746-976d-eb53bb7bd18e" testId="ffac9ef0-a17e-6f5d-48c2-181fdbc2e93a" testName="SetNewDateTest" computerName="IBM-F6410F" duration="00:00:00.3226004" startTime="2013-03-31T15:18:19.0912874-04:00" endTime="2013-03-31T15:18:20.0756624-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ffe5a8c-2ed5-4746-976d-eb53bb7bd18e">
+      <Output>
+        <DebugTrace>DAO - SetNewDate()- currentDate:0001-01-01
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

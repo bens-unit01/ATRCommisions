@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AGENTS" EntityType="Model.AGENTS" />
+    <EntitySet Name="CLIENTS" EntityType="Model.CLIENTS" />
+    <EntitySet Name="PAIEMENTS" EntityType="Model.PAIEMENTS" />
+    <EntitySet Name="POLICES" EntityType="Model.POLICES" />
+    <EntitySet Name="TYPE_POLICES" EntityType="Model.TYPE_POLICES" />
+    <AssociationSet Name="SYS_C00693338" Association="Model.SYS_C00693338">
+      <End Role="AGENTS" EntitySet="AGENTS" />
+      <End Role="POLICES" EntitySet="POLICES" />
+    </AssociationSet>
+    <AssociationSet Name="SYS_C00693337" Association="Model.SYS_C00693337">
+      <End Role="CLIENTS" EntitySet="CLIENTS" />
+      <End Role="POLICES" EntitySet="POLICES" />
+    </AssociationSet>
+    <AssociationSet Name="SYS_C00693344" Association="Model.SYS_C00693344">
+      <End Role="POLICES" EntitySet="POLICES" />
+      <End Role="PAIEMENTS" EntitySet="PAIEMENTS" />
+    </AssociationSet>
+    <AssociationSet Name="SYS_C00693336" Association="Model.SYS_C00693336">
+      <End Role="TYPE_POLICES" EntitySet="TYPE_POLICES" />
+      <End Role="POLICES" EntitySet="POLICES" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AGENTS">
+    <Key>
+      <PropertyRef Name="AGENT_ID" />
+    </Key>
+    <Property Name="AGENT_ID" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="PROFILE" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="MOT_PASSE" Type="String" Nullable="false" MaxLength="14" Unicode="false" FixedLength="false" />
+    <Property Name="NOM" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="PRENOM" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="ADRESSE" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="POLICES" Relationship="Model.SYS_C00693338" FromRole="AGENTS" ToRole="POLICES" />
+  </EntityType>
+  <EntityType Name="CLIENTS">
+    <Key>
+      <PropertyRef Name="CLIENT_ID" />
+    </Key>
+    <Property Name="CLIENT_ID" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="NOM" Type="String" Nullable="false" MaxLength="14" Unicode="false" FixedLength="false" />
+    <Property Name="PRENOM" Type="String" Nullable="false" MaxLength="14" Unicode="false" FixedLength="false" />
+    <Property Name="ADRESSE" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="POLICES" Relationship="Model.SYS_C00693337" FromRole="CLIENTS" ToRole="POLICES" />
+  </EntityType>
+  <EntityType Name="PAIEMENTS">
+    <Key>
+      <PropertyRef Name="PAIEMENT_ID" />
+    </Key>
+    <Property Name="PAIEMENT_ID" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TYPE_PAIEMENT" Type="String" Nullable="false" MaxLength="14" Unicode="false" FixedLength="false" />
+    <Property Name="NUM_CHEQUE" Type="String" Nullable="false" MaxLength="14" Unicode="false" FixedLength="false" />
+    <Property Name="DATE_PAIEMENT" Type="DateTime" Nullable="false" />
+    <Property Name="MONTANT_PAIEMENT" Type="Decimal" Precision="6" Scale="2" />
+    <Property Name="POLICE_ID" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <NavigationProperty Name="POLICES" Relationship="Model.SYS_C00693344" FromRole="PAIEMENTS" ToRole="POLICES" />
+  </EntityType>
+  <EntityType Name="POLICES">
+    <Key>
+      <PropertyRef Name="POLICE_ID" />
+    </Key>
+    <Property Name="POLICE_ID" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="ETAT" Type="String" Nullable="false" MaxLength="14" Unicode="false" FixedLength="false" />
+    <Property Name="DATE_DEBUT" Type="DateTime" />
+    <Property Name="DATE_FIN" Type="DateTime" />
+    <Property Name="DATE_ACHAT" Type="DateTime" />
+    <Property Name="DATE_ANNULATION" Type="DateTime" />
+    <Property Name="MONTANT_COM" Type="Decimal" Precision="6" Scale="2" />
+    <Property Name="FEQUENCE_PAIEMENT_CLIENT" Type="String" Nullable="false" MaxLength="14" Unicode="false" FixedLength="false" />
+    <Property Name="MONTANT_PAIEMENT_CLIENT" Type="Decimal" Precision="6" Scale="2" />
+    <Property Name="TYPE_ID" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="CLIENT_ID" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="AGENT_ID" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <NavigationProperty Name="AGENTS" Relationship="Model.SYS_C00693338" FromRole="POLICES" ToRole="AGENTS" />
+    <NavigationProperty Name="CLIENTS" Relationship="Model.SYS_C00693337" FromRole="POLICES" ToRole="CLIENTS" />
+    <NavigationProperty Name="PAIEMENTS" Relationship="Model.SYS_C00693344" FromRole="POLICES" ToRole="PAIEMENTS" />
+    <NavigationProperty Name="TYPE_POLICES" Relationship="Model.SYS_C00693336" FromRole="POLICES" ToRole="TYPE_POLICES" />
+  </EntityType>
+  <EntityType Name="TYPE_POLICES">
+    <Key>
+      <PropertyRef Name="TYPE_ID" />
+    </Key>
+    <Property Name="TYPE_ID" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="NOM_POLICE" Type="String" Nullable="false" MaxLength="14" Unicode="false" FixedLength="false" />
+    <Property Name="DESCRIPTION" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="POURCENTAGE_COM" Type="Decimal" Precision="2" Scale="2" />
+    <Property Name="PRIX" Type="Decimal" Precision="6" Scale="2" />
+    <NavigationProperty Name="POLICES" Relationship="Model.SYS_C00693336" FromRole="TYPE_POLICES" ToRole="POLICES" />
+  </EntityType>
+  <Association Name="SYS_C00693338">
+    <End Role="AGENTS" Type="Model.AGENTS" Multiplicity="1" />
+    <End Role="POLICES" Type="Model.POLICES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AGENTS">
+        <PropertyRef Name="AGENT_ID" />
+      </Principal>
+      <Dependent Role="POLICES">
+        <PropertyRef Name="AGENT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SYS_C00693337">
+    <End Role="CLIENTS" Type="Model.CLIENTS" Multiplicity="1" />
+    <End Role="POLICES" Type="Model.POLICES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTS">
+        <PropertyRef Name="CLIENT_ID" />
+      </Principal>
+      <Dependent Role="POLICES">
+        <PropertyRef Name="CLIENT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SYS_C00693344">
+    <End Role="POLICES" Type="Model.POLICES" Multiplicity="1" />
+    <End Role="PAIEMENTS" Type="Model.PAIEMENTS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="POLICES">
+        <PropertyRef Name="POLICE_ID" />
+      </Principal>
+      <Dependent Role="PAIEMENTS">
+        <PropertyRef Name="POLICE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SYS_C00693336">
+    <End Role="TYPE_POLICES" Type="Model.TYPE_POLICES" Multiplicity="1" />
+    <End Role="POLICES" Type="Model.POLICES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TYPE_POLICES">
+        <PropertyRef Name="TYPE_ID" />
+      </Principal>
+      <Dependent Role="POLICES">
+        <PropertyRef Name="TYPE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,11 @@
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2005\ATRCommissions\bin\Debug\ATRCommissions.exe.config
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2005\ATRCommissions\bin\Debug\ATRCommissions.exe
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2005\ATRCommissions\bin\Debug\ATRCommissions.pdb
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2005\ATRCommissions\bin\Debug\System.Data.OracleClient.dll
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2005\ATRCommissions\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2005\ATRCommissions\obj\Debug\ATRCommissions.Properties.Resources.resources
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2005\ATRCommissions\obj\Debug\ATRCommissions.csproj.GenerateResource.Cache
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2005\ATRCommissions\obj\Debug\ATRCommissions.exe
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2005\ATRCommissions\obj\Debug\ATRCommissions.pdb
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2005\ATRCommissions\obj\Debug\ATRCommissions.AdminView.resources
+C:\Documents and Settings\user1\Mes documents\Google Drive\Formation\C#__.net -- 819\Projet de session\ATRCommissions 2005\ATRCommissions\obj\Debug\ATRCommissions.AgentView.resources
